@@ -1,0 +1,497 @@
+{
+  "id": "b886e6f0-69ad-4116-a0db-1fe0cba29cf5",
+  "version": "2.0",
+  "name": "chirag_test",
+  "url": "https://hnbgu.ac.in",
+  "tests": [{
+    "id": "25de9c69-bfad-481a-b039-180b7f24930e",
+    "name": "final-test",
+    "commands": [{
+      "id": "4f20758f-09e7-4e18-8d20-805edfaad6dc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "936fca0e-cf88-40d7-94dd-3243276ddce8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "932x1060",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55c6cfaf-50c6-45ed-87e8-02c30c85a3c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.notif-listed > .more-link > a",
+      "targets": [
+        ["css=.notif-listed > .more-link > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'View All')])[2]", "xpath:link"],
+        ["xpath=//div[@id='block-views-block-appointment-block-1']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/notification-circulars')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37d41bf2-91a4-4d4b-b537-fd745867efd9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=File",
+      "targets": [
+        ["linkText=File", "linkText"],
+        ["css=tr:nth-child(1) .pdf-file", "css:finder"],
+        ["xpath=//a[contains(text(),'File')]", "xpath:link"],
+        ["xpath=//div[@id='block-creative-responsive-theme-content']/div/div/div/table/tbody/tr/td[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sites/default/files/2024-03/Office%20Order%20No.R.O.%2082.pdf')]", "xpath:href"],
+        ["xpath=//td[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'File ')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4686",
+      "windowTimeout": 2000
+    }, {
+      "id": "d14b2ad4-0275-4403-908b-d00704630684",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec81f310-9c42-4e14-aebb-2a9e5c6e62a6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4686}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a466676-9eb7-4752-90bb-c333c6699b12",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6429d13-a98b-4e54-9bac-17276124c01b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f909c9a1-bfa1-44ae-bd57-f44fe1abf833",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .pdf-file",
+      "targets": [
+        ["css=tr:nth-child(2) .pdf-file", "css:finder"],
+        ["xpath=(//a[contains(text(),'File')])[2]", "xpath:link"],
+        ["xpath=//div[@id='block-creative-responsive-theme-content']/div/div/div/table/tbody/tr[2]/td[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sites/default/files/2024-03/Office%20Order%20No.%2078%20%28Modified%20coordination%20team%20for%20NAAC%29.pdf')]", "xpath:href"],
+        ["xpath=//tr[2]/td[4]/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8776",
+      "windowTimeout": 2000
+    }, {
+      "id": "65fd4bde-31f5-43bd-b650-454ed4588bff",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8776}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7681e68a-de6f-41fb-a676-ffbc68daaa4a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e7932f7-5b03-4a50-935e-e33e2261a186",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "638af70b-e25a-4e80-8530-4f9daed4d6ec",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) .pdf-file",
+      "targets": [
+        ["css=tr:nth-child(3) .pdf-file", "css:finder"],
+        ["xpath=(//a[contains(text(),'File')])[3]", "xpath:link"],
+        ["xpath=//div[@id='block-creative-responsive-theme-content']/div/div/div/table/tbody/tr[3]/td[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sites/default/files/2024-03/Office%20Order%20No.%2073%20%28Dr.%20Sunil%20Kumar%2C%20Assistant%20Professor%29.pdf')]", "xpath:href"],
+        ["xpath=//tr[3]/td[4]/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4265",
+      "windowTimeout": 2000
+    }, {
+      "id": "2da5c4c9-c413-49eb-83d4-a9a2e8faa5ab",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4265}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5ab802e-ff28-4730-aa11-241a3920b1ca",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e476f8e-782c-45d4-8a54-b6f993e2d279",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bde4da98-4bbd-4a2d-8d1e-f91535462be6",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) .pdf-file",
+      "targets": [
+        ["css=tr:nth-child(4) .pdf-file", "css:finder"],
+        ["xpath=(//a[contains(text(),'File')])[4]", "xpath:link"],
+        ["xpath=//div[@id='block-creative-responsive-theme-content']/div/div/div/table/tbody/tr[4]/td[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sites/default/files/2024-03/Office%20Order%20No.%20213%20%28Promotion%20of%20MTS%29.pdf')]", "xpath:href"],
+        ["xpath=//tr[4]/td[4]/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3118",
+      "windowTimeout": 2000
+    }, {
+      "id": "2e2ab051-3785-46ec-8c80-bb79cf60f17f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3118}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "481681d6-b83c-4b99-970a-d60488b886ba",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec3c0d2a-120d-409b-a5e6-c88a137898af",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c8731f9-7121-4193-a311-ade362bc9710",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .pdf-file",
+      "targets": [
+        ["css=tr:nth-child(5) .pdf-file", "css:finder"],
+        ["xpath=(//a[contains(text(),'File')])[5]", "xpath:link"],
+        ["xpath=//div[@id='block-creative-responsive-theme-content']/div/div/div/table/tbody/tr[5]/td[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sites/default/files/2024-03/Office%20Order%20No.%2070%20%28Overall%20Coordinator%20for%20the%20NAAC%29_0.pdf')]", "xpath:href"],
+        ["xpath=//tr[5]/td[4]/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4455",
+      "windowTimeout": 2000
+    }, {
+      "id": "3374bd9a-daa0-493d-b9cd-9791b5caf8fa",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4455}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c13b69e6-9244-44da-bb5d-d59029e5ba15",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3bb9507-60f2-41c3-8273-859cc2b4effb",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbdb31fd-7780-47ae-aa04-31f6570e932f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(6) .pdf-file",
+      "targets": [
+        ["css=tr:nth-child(6) .pdf-file", "css:finder"],
+        ["xpath=(//a[contains(text(),'File')])[6]", "xpath:link"],
+        ["xpath=//div[@id='block-creative-responsive-theme-content']/div/div/div/table/tbody/tr[6]/td[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sites/default/files/2024-03/Office%20Order%20No.%2070%20%28Overall%20Coordinator%20for%20the%20NAAC%29.pdf')]", "xpath:href"],
+        ["xpath=//tr[6]/td[4]/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9990",
+      "windowTimeout": 2000
+    }, {
+      "id": "ad90a8bc-5e72-4bbf-bdc7-3aa68256c984",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9990}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bb0496a-0055-40a9-9810-7ac63004933c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "640bc8a8-8195-4ff4-8fec-7aa5ca80bbcd",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80349650-be49-4543-b696-97bd320ad92a",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(8) .pdf-file",
+      "targets": [
+        ["css=tr:nth-child(8) .pdf-file", "css:finder"],
+        ["xpath=(//a[contains(text(),'File')])[8]", "xpath:link"],
+        ["xpath=//div[@id='block-creative-responsive-theme-content']/div/div/div/table/tbody/tr[8]/td[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sites/default/files/2024-02/Circular%20No.%2069%20%28Whatsapp%20related%20groups%29.pdf')]", "xpath:href"],
+        ["xpath=//tr[8]/td[4]/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4551",
+      "windowTimeout": 2000
+    }, {
+      "id": "817fc206-637c-43f8-86aa-b5f35514c44e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4551}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3349a2da-771a-4821-b387-4db332467ca3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40a32bb9-073f-4f3a-8875-728f4e876dfd",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e144c2e-6eae-4406-82b1-3681a3c92b6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(10) .pdf-file",
+      "targets": [
+        ["css=tr:nth-child(10) .pdf-file", "css:finder"],
+        ["xpath=(//a[contains(text(),'File')])[10]", "xpath:link"],
+        ["xpath=//div[@id='block-creative-responsive-theme-content']/div/div/div/table/tbody/tr[10]/td[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sites/default/files/2024-02/Bills%20notice%20.pdf')]", "xpath:href"],
+        ["xpath=//tr[10]/td[4]/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win167",
+      "windowTimeout": 2000
+    }, {
+      "id": "038efc2c-9ead-4f38-b8fa-af96f5871b6b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win167}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9365434-9909-42e3-8a31-e601a02dce11",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebc63b99-c817-434e-9a7b-34bb63993fa8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8505d18-9f10-46c6-bc56-14f0d1706ccd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.upevent-listed > .more-link > a",
+      "targets": [
+        ["css=.upevent-listed > .more-link > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'View All')])[3]", "xpath:link"],
+        ["xpath=//div[@id='quicktabs-tabpage-upcoming_events_tenders-0']/div[2]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/events')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63334825-2778-46a7-9ea7-571e0b2c0dfc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=File",
+      "targets": [
+        ["linkText=File", "linkText"],
+        ["css=.col-1 .pdf-file", "css:finder"],
+        ["xpath=//a[contains(text(),'File')]", "xpath:link"],
+        ["xpath=//div[@id='block-creative-responsive-theme-content']/div/div/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sites/default/files/2024-02/scan0007.pdf')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'File ')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2932",
+      "windowTimeout": 2000
+    }, {
+      "id": "004f8222-3ce6-4e66-888d-a72779b8f370",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2932}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "202f533f-5bea-4dcf-977c-2b0da27fe75c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4879fea3-a73d-4b8c-a305-9c9519caa818",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ed18488-0e96-4d5c-90d9-f89419ebc54d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-2 > .views-field-field-event-upload-file > .field-content",
+      "targets": [
+        ["css=.col-2 > .views-field-field-event-upload-file > .field-content", "css:finder"],
+        ["xpath=//div[@id='block-creative-responsive-theme-content']/div/div/div/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e138870-a290-4993-b1a4-0591e9772f9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-2 .pdf-file",
+      "targets": [
+        ["css=.col-2 .pdf-file", "css:finder"],
+        ["xpath=(//a[contains(text(),'File')])[2]", "xpath:link"],
+        ["xpath=//div[@id='block-creative-responsive-theme-content']/div/div/div/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sites/default/files/2024-02/Edited%20Brochure%20APL%20Physics%20HNBGU.pdf')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6882",
+      "windowTimeout": 2000
+    }, {
+      "id": "e6fa11e0-d2d0-4b46-bae6-036976e08d19",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6882}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83eaee44-ef7e-4c74-b5d6-7b9abf434182",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f9bdadf-0182-4e3f-808a-e3e3bb0ac89a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e95a8aa2-77ad-4f70-a5dc-64e93a8a9f0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-3 .pdf-file",
+      "targets": [
+        ["css=.col-3 .pdf-file", "css:finder"],
+        ["xpath=(//a[contains(text(),'File')])[3]", "xpath:link"],
+        ["xpath=//div[@id='block-creative-responsive-theme-content']/div/div/div/div/div[3]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sites/default/files/2024-02/Uttarakhand%20Participants-%20HNBGU_0.pdf')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8701",
+      "windowTimeout": 2000
+    }, {
+      "id": "c6594817-23ad-4536-9098-422c766b4d4e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8701}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96b1c763-4e3b-4555-ba24-300f6c9dd951",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "622cb194-ffd7-44cc-ae67-ad6fd3e8ddcd",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df333776-690f-48d5-b1c6-d9d4e6bfdf12",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c6f19309-791d-448e-938a-b9e4db755a56",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": [],
+  "plugins": []
+}
